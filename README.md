@@ -1,4 +1,4 @@
-Get start the app but cloning it.
+Get start the app by cloning it.
 
 use command "npm i --force" to install dipendencies.
 
