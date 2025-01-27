@@ -15,7 +15,7 @@ const Allusers = () => {
   useEffect(() => {
     async function fetch() {
       try {
-        const result = await axios.get("http://localhost:4000/users");
+        const result = await axios.get("https://ajackus-back-end.onrender.com/users");
         setData(result.data);
       } catch (err) {
         setError(err?.response ? err.response.data : err.message);

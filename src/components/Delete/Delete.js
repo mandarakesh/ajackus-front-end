@@ -5,7 +5,7 @@ import axios from "axios";
 const Delete = ({ deleteData, setDeleteShow }) => {
   console.log(deleteData);
   const handleClick = async () => {
-    await axios.delete(`http://localhost:4000/delete/${deleteData}`);
+    await axios.delete(`https://ajackus-back-end.onrender.com/delete/${deleteData}`);
     setDeleteShow(false);
   };
   return (

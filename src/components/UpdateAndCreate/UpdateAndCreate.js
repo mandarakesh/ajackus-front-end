@@ -23,9 +23,9 @@ const UpdateAndCreate = ({ updateData, setshowUpdate }) => {
         validationSchema={valdateSchema}
         onSubmit={async (values) => {
           if (updateData.firstName) {
-            await axios.put("http://localhost:4000/users", values);
+            await axios.put("https://ajackus-back-end.onrender.com/users", values);
           } else {
-            await axios.post("http://localhost:4000/users", values);
+            await axios.post("https://ajackus-back-end.onrender.com/users", values);
           }
           setshowUpdate(false);
         }}
