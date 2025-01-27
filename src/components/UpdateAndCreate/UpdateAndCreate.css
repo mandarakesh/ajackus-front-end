@@ -1,0 +1,60 @@
+.update-container {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(13, 14, 13, 0.4);
+  z-index: 3;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.create-form-container {
+  padding: 30px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  gap: 5px;
+}
+.create-fields-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.delete-symbol {
+  background-color: rgb(209, 24, 24);
+  padding: 6px 7px 9px 8px;
+  border-radius: 50px;
+  width: 20px;
+  margin: 0px;
+  color: white;
+  text-align: center;
+}
+.create-input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 300px;
+}
+.create-input:focus {
+  outline: none;
+  border: 1px solid green;
+  box-shadow: 0px 0px 10px rgb(162, 204, 162);
+}
+.error-component {
+  color: red;
+}
+.error {
+  border: 1px solid red;
+}
+@media screen and (max-width: 600px) {
+  .create-input {
+    width: 160px;
+  }
+  .delete-container {
+    width: 200px;
+  }
+}

@@ -1,0 +1,51 @@
+.users-main-container {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.user-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-left: 25px;
+}
+.user-card-container {
+  background-color: rgb(96, 170, 170);
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: white;
+  text-align: start;
+}
+.user-card-container:hover {
+  scale: 1.05;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 10px 10px 5px;
+}
+.success-button {
+  background-color: rgb(24, 122, 73);
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+.success-button:hover {
+  background-color: rgb(22, 97, 61);
+}
+.delete-button {
+  background-color: rgb(199, 63, 63);
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+.delete-button:hover {
+  background-color: rgb(141, 37, 37);
+}
